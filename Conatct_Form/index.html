@@ -1,0 +1,28 @@
+<!-- // this form contain  the data which directly comes tot the email via api like if you enter a detail it will directly goes to the email only you have to type of email address -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contat_container">
+            <form  action="https://api.web3forms.com/submit" method="POST" class="contact_left">
+                    <div class="contact_left_title">
+                        <h2>Get in Touch</h2>
+                        <hr>
+                    </div>
+                    <input type="hidden" name="access_key" value="3738213a-a405-4ddd-8bc6-462cfd9451e8">
+                    <input type="text" name="name" id="" placeholder="Your Name" class="contact_inputs" required>
+                    <input type="text" name="Email" id="" placeholder="Your Email" class="contact_inputs" required>
+                    <textarea name="message" id="" placeholder="Your Mesage" class="contact_inputs"></textarea>
+                    <button type="submit">Submit<img src="assets/arrow_icon.png" alt=""></button>
+            </form>
+            <div class="container_right">
+                    <img src="assets/right_img.png" alt="">
+            </div>
+    </div>
+</body>
+</html>
